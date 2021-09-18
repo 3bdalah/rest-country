@@ -1,0 +1,29 @@
+/* Card styling */
+.card {
+    border-radius: 4px;
+    background-color: var(--background-el);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    overflow: hidden;
+    margin: 40px;
+    max-width: 100%;
+    width: 300px;
+    text-decoration: none;
+    .card img {
+        object-fit: cover;
+        height: 200px;
+        width: 100%;
+    }
+}
+
+.card-body {
+    padding: 30px;
+    .card-body h3 {
+        margin-top: 0;
+    }
+}
+
+.container.countries {
+    margin-top: -40px;
+    justify-content: center;
+}
